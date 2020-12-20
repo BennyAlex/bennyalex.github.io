@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bennyalex.github.io
+Token: 007b7f379cda91388db0ee52acd41727fe54966d94f1bc4498a0ea6378818ae7
