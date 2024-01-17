@@ -20,7 +20,8 @@
 .section-tag {
     font-size: 1.25rem;
     color: #5ddcff;
-    font-family: 'Consolas', 'Lucida Console', 'Courier New', monospace;
+    font-family: 'UbuntuMono', 'Consolas', 'Lucida Console', 'Courier New', monospace;
+    font-weight: 400;
 }
 
 .section-content {

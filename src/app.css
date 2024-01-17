@@ -74,6 +74,20 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('/fonts/UbuntuMono-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    src: url('/fonts/UbuntuMono-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
 a {
     font-weight: 500;
     color: #00a3ff;
@@ -271,11 +285,11 @@ header.is-sticky {
 }
 
 .mono-headline {
-    font-family: 'Consolas', 'Lucida Console', 'Courier New', monospace;
+    font-family: 'UbuntuMono', 'Consolas', 'Lucida Console', 'Courier New', monospace;
     color: #fff;
     font-size: 2rem;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.04rem;
 }
 
@@ -324,17 +338,17 @@ footer svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding-bottom: 1rem;
+    gap: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .desktop-hidden {
-    display: none;
+    display: none !important;
 }
 
 @media screen and (max-width: 600px) {
     :root {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     #app {
@@ -344,6 +358,14 @@ footer svg {
 
     main {
         padding: 0;
+    }
+
+    header {
+        padding: 3.75rem 1.5rem 0
+    }
+
+    header.is-sticky {
+        padding: 1rem 1.5rem;
     }
 
     #header-inner {
@@ -369,11 +391,11 @@ footer svg {
     }
 
     .mobile-hidden {
-        display: none;
+        display: none !important;
     }
 
     .desktop-hidden {
-        display: block;
+        display: flex !important;
     }
 
     .mono-headline {
@@ -394,7 +416,7 @@ footer svg {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
     .mono-headline {
         font-size: 1.75rem;
     }

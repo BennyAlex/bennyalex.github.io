@@ -93,7 +93,10 @@ function App() {
         <button title='Look at my CV / Resume'>CV / Resume</button>
       </Section>
 
-      <Section tag='experience' title='My Work Experience'>
+      <Section tag='experience' title='My Work Experience' tiltProps={{
+        tiltMaxAngleX: 1,
+        tiltMaxAngleY: 7,
+      }}>
         <div className='experience'>
           <div className='experience-item'>
             <h3>WebInclusion GmbH</h3>
