@@ -3,7 +3,7 @@ import Tilt from "react-parallax-tilt";
 import Section from "./components/Section.jsx";
 import useWindowSize from "./hooks/useWindowSize.jsx";
 import Typewriter from "./components/Typewriter.jsx";
-import { IconBrandGithub, IconHeart, IconMail, IconMailUp, IconSend } from "@tabler/icons-react";
+import { IconBrandGithub, IconHeart, IconMail } from "@tabler/icons-react";
 
 const updateMousePosition = (ev) => {
     const { clientX, clientY } = ev;
@@ -120,8 +120,12 @@ function App() {
                 }
             >
                 <p>
-                    I have a passion for building web applications. Currently I am working at{" "}
-                    <a href="https://www.eye-able.com/">WebInclusion</a> as a full-stack engineer.
+                    Passionate and detail-oriented software developer with strong expertise in
+                    modern web technologies such as React, Vue, and Node.js. Experienced in creating
+                    accessible, high-performance applications and automating workflows using APIs
+                    and microservices. Skilled at combining front-end precision with back-end logic
+                    to deliver clean, scalable solutions. I have a passion for building web
+                    applications.
                 </p>
                 <a
                     title="Look at my CV / Resume"
@@ -144,7 +148,7 @@ function App() {
                 <div className="experience">
                     <div className="experience-item">
                         <h3>WebInclusion GmbH</h3>
-                        <h4>09.2022 - Present</h4>
+                        <h4>09/2022 - 01/2025</h4>
                         <p>
                             As the lead responsible for the{" "}
                             <a href="https://dashboard.eye-able.com/demo/" target="_blank">
@@ -153,7 +157,7 @@ function App() {
                             , I developed a comprehensive and interactive single-page-application
                             using React and Material UI, featuring detailed graphs and tables, an
                             PDF viewer showing accessibility errors, and a function to display
-                            screenshots with marked bounding boxes. I also programmed a broken-link
+                            screenshots with marked bounding boxes. I implemented a broken-link
                             checker and created a{" "}
                             <a
                                 href="https://dashboard.eye-able.com/demo?goto=/tools/simple-language"
@@ -162,14 +166,17 @@ function App() {
                                 web component{" "}
                             </a>
                             to simplify input text into easier language using the OpenAI API, aiding
-                            in removing barriers in the web. Furthermore, I created an automated
-                            Lighthouse crawler and a corresponding results page, to give our
-                            customers a complete overview of their website’s performance and SEO.
+                            in removing barriers in the web. Furthermore, I created an
+                            automated Lighthouse crawler and a corresponding results page, to giving
+                            customers an overview of their website's performance and SEO.
+                            I have successfully rewritten the backend with bun.sh and TypeScript,
+                            improving latency while decreasing future development time. I was also 
+                            responsible for a secure user authentication using JWT. 
                         </p>
                     </div>
                     <div className="experience-item">
                         <h3>Self-Employed</h3>
-                        <h4>07.2021 - Present</h4>
+                        <h4>07/2021 - Present</h4>
                         <p>
                             I also work as a freelancer, creating websites for small businesses and
                             private persons. This often includes working with a CMS like Wordpress,
@@ -179,7 +186,7 @@ function App() {
                     </div>
                     <div className="experience-item">
                         <h3>FAAREN GmbH</h3>
-                        <h4>02.2021 - 06.2021</h4>
+                        <h4>02/2021 - 06/2021</h4>
                         <p>
                             As a software developer, I created the front- and backend for the{" "}
                             <a href="https://faaren.com/katalog/" target="_blank">
@@ -190,7 +197,7 @@ function App() {
                     </div>
                     <div className="experience-item">
                         <h3>Main-Post GmbH</h3>
-                        <h4>09.2015 - 07.2018</h4>
+                        <h4>09/2015 - 07/2018</h4>
                         <p>
                             I completed a three-year certified, state-recognized apprenticeship as a
                             Computer Science Expert in Software Development. I learnt a lot about
